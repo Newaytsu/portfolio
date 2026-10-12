@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hector LARGEAUT – Portfolio BTS SIO SISR</title>
+  <meta name="description" content="Portfolio BTS SIO option SISR de Hector LARGEAUT, apprenti à la CPAM de Paris.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="nav-wrap">
+  <nav class="nav" id="nav">
+    <a href="#accueil" class="logo">Hector LARGEAUT</a>
+
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="menu" id="menu">
+      <li><a href="#accueil">Accueil</a></li>
+
+      <li class="dropdown">
+        <button class="drop-btn" aria-haspopup="true">Présentation <svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button>
+        <ul class="submenu">
+          <li><a href="#presentation">Qui suis-je ?</a></li>
+          <li><a href="#entreprise">L'entreprise</a></li>
+          <li><a href="#formation">La formation</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <button class="drop-btn" aria-haspopup="true">Épreuve E5 <svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button>
+        <ul class="submenu">
+          <li><a href="#missions-entreprise">Missions Entreprise</a></li>
+          <li><a href="#missions-formation">Missions Formation</a></li>
+          <li><a href="#syntheses">Tableau Synthèses</a></li>
+        </ul>
+      </li>
+
+      <li class="dropdown">
+        <button class="drop-btn" aria-haspopup="true">Épreuve E6 <svg viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></button>
+        <ul class="submenu">
+          <li><a href="#tp-reseau">TP Réseau</a></li>
+          <li><a href="#tp-ad">TP Active Directory</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#veille">Veille Technologique</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="accueil">
+  <div class="hero-inner">
+    <span class="badge">
+      <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+      BTS SIO SISR • Gestionnaire Infrastructure Matériel Logiciel
+    </span>
+    <h1><span class="blue">LARGEAUT</span><br><span class="dark">Hector</span></h1>
+    <p class="lead">Passionné par l'<strong class="accent">infrastructure IT</strong> &amp; le <strong class="accent">support informatique</strong>.</p>
+    <p class="sub">Apprenti à la <strong>CPAM de Paris</strong>, je développe mes compétences en <strong>administration système</strong>, <strong>gestion de parc</strong> et <strong>infrastructure informatique</strong>.</p>
+    <a class="btn" href="assets/CV-Hector-LARGEAUT.pdf" download>
+      <svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+      Télécharger mon CV
+    </a>
+  </div>
+</section>
+
+<!-- ================= PRÉSENTATION ================= -->
+<section class="section" id="presentation">
+  <div class="container reveal">
+    <h2 class="title">Qui suis-je ?</h2>
+    <p class="intro">Étudiant en BTS SIO option SISR en alternance, je partage ici mes missions, mes travaux pratiques et ma veille technologique.</p>
+    <div class="grid-3">
+      <article class="card"><div class="icon">🎓</div><h3>Formation</h3><p>BTS SIO option SISR en alternance, IMC Alternance – Groupe Randstad.</p></article>
+      <article class="card"><div class="icon">🏢</div><h3>Entreprise</h3><p>CPAM de Paris, service Assistance &amp; Déploiement, site Trieste (Paris 19e).</p></article>
+      <article class="card"><div class="icon">🛠️</div><h3>Compétences</h3><p>Windows Server, Active Directory, réseau Cisco, supervision, gestion de parc.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="entreprise">
+  <div class="container reveal">
+    <h2 class="title">L'entreprise</h2>
+    <div class="panel">
+      <p>Je suis alternant à la <strong>CPAM de Paris</strong>, au sein du service <strong>Assistance &amp; Déploiement</strong> (site Trieste). Mon poste : <strong>Gestionnaire Badges &amp; IML</strong>.</p>
+      <p>Mon tuteur est <strong>Franck Tarasconi</strong>, administrateur IML.</p>
+      <!-- À compléter : organigramme, contexte du service, parc géré, outils utilisés... -->
+    </div>
+  </div>
+</section>
+
+<section class="section" id="formation">
+  <div class="container reveal">
+    <h2 class="title">La formation</h2>
+    <div class="panel">
+      <p>Le BTS SIO option SISR (Solutions d'Infrastructure, Systèmes et Réseaux) forme aux métiers de l'administration des systèmes et des réseaux. L'alternance me permet de combiner travail en entreprise et travaux pratiques en centre de formation.</p>
+      <!-- À compléter : matières, projets, laboratoire... -->
+    </div>
+  </div>
+</section>
+
+<!-- ================= E5 ================= -->
+<section class="section alt" id="missions-entreprise">
+  <div class="container reveal">
+    <h2 class="title">Missions Entreprise</h2>
+    <p class="intro">Les missions réalisées à la CPAM de Paris.</p>
+    <div class="grid-3">
+      <article class="card">
+        <span class="tag">Mission 1</span>
+        <h3>Gestion des badges</h3>
+        <p>Description de la mission, contexte, outils utilisés et résultat obtenu.</p>
+        <a class="link" href="#">Voir le détail →</a>
+      </article>
+      <article class="card">
+        <span class="tag">Mission 2</span>
+        <h3>Gestion IML</h3>
+        <p>Description de la mission, contexte, outils utilisés et résultat obtenu.</p>
+        <a class="link" href="#">Voir le détail →</a>
+      </article>
+      <article class="card">
+        <span class="tag">Mission 3</span>
+        <h3>Titre de la mission</h3>
+        <p>Description de la mission, contexte, outils utilisés et résultat obtenu.</p>
+        <a class="link" href="#">Voir le détail →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="missions-formation">
+  <div class="container reveal">
+    <h2 class="title">Missions Formation</h2>
+    <p class="intro">Les travaux réalisés en centre de formation.</p>
+    <div class="grid-3">
+      <article class="card">
+        <span class="tag violet">Formation</span>
+        <h3>Laboratoire réseau</h3>
+        <p>Cisco, supervision Zabbix, virtualisation Proxmox.</p>
+        <a class="link" href="#">Voir le détail →</a>
+      </article>
+      <article class="card">
+        <span class="tag violet">Formation</span>
+        <h3>Projet</h3>
+        <p>Description du projet réalisé en formation.</p>
+        <a class="link" href="#">Voir le détail →</a>
+      </article>
+      <article class="card">
+        <span class="tag violet">Formation</span>
+        <h3>Projet</h3>
+        <p>Description du projet réalisé en formation.</p>
+        <a class="link" href="#">Voir le détail →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="syntheses">
+  <div class="container reveal">
+    <h2 class="title">Tableau de synthèses</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Activité</th><th>Contexte</th><th>Compétences</th><th>Preuve</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Gestion des badges</td><td>Entreprise</td><td>B1.1 – B1.2</td><td><a href="#">Voir</a></td></tr>
+          <tr><td>Gestion IML</td><td>Entreprise</td><td>B1.3 – B3.1</td><td><a href="#">Voir</a></td></tr>
+          <tr><td>Laboratoire réseau</td><td>Formation</td><td>A1.1 – B1.1</td><td><a href="#">Voir</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ================= E6 ================= -->
+<section class="section" id="tp-reseau">
+  <div class="container reveal">
+    <h2 class="title">TP Réseau – SUPDEVINCI</h2>
+    <div class="panel">
+      <p>Infrastructure multi-sites (Paris, Lyon, Marseille) réalisée sous <strong>Cisco Packet Tracer</strong>.</p>
+      <ul class="chips">
+        <li>VLSM</li><li>VLAN</li><li>Routage inter-sites</li><li>ACL</li><li>DMZ</li><li>DHCP</li><li>DNS</li>
+      </ul>
+      <a class="link" href="#">Télécharger le dossier de TP →</a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="tp-ad">
+  <div class="container reveal">
+    <h2 class="title">TP Active Directory – SUPDEVINCI</h2>
+    <div class="panel">
+      <p>Mise en place d'un environnement <strong>Windows Server</strong> complet.</p>
+      <ul class="chips">
+        <li>Active Directory</li><li>DNS</li><li>DHCP</li><li>IIS</li><li>GPO</li>
+      </ul>
+      <a class="link" href="#">Télécharger le dossier de TP →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VEILLE ================= -->
+<section class="section" id="veille">
+  <div class="container reveal">
+    <h2 class="title">Veille technologique</h2>
+    <p class="intro">Thème de ma veille, sources suivies et synthèses.</p>
+    <div class="grid-3">
+      <article class="card"><div class="icon">📰</div><h3>Sources</h3><p>Liste de tes sources (flux RSS, sites spécialisés, newsletters…).</p></article>
+      <article class="card"><div class="icon">🔎</div><h3>Outils</h3><p>Feedly, Google Alerts, etc.</p></article>
+      <article class="card"><div class="icon">📝</div><h3>Synthèses</h3><p>Tes derniers articles et résumés.</p></article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h4>Contact</h4>
+      <ul class="flist">
+        <li><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg><a href="tel:+33623786682">06 23 78 66 82</a></li>
+        <li><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><a href="mailto:hector05largeaut@gmail.com">hector05largeaut@gmail.com</a></li>
+        <li><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg><a href="#" target="_blank" rel="noopener">Hector LARGEAUT</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Navigation rapide</h4>
+      <ul class="flist two">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#missions-entreprise">Missions Entreprise</a></li>
+        <li><a href="#missions-formation">Missions Formation</a></li>
+        <li><a href="#syntheses">Tableau Synthèses</a></li>
+        <li><a href="#veille">Veille</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <h4>Portfolio BTS SIO</h4>
+      <p>© <span id="year">2026</span> - Hector LARGEAUT</p>
+      <small>BTS SIO Option SISR - CPAM Paris</small>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
